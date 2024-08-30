@@ -149,7 +149,7 @@ jobs:
       uses: hendrikmuhs/ccache-action@v1.2
       with:
         key: build-kernel-${{ env.DEVICE }}${{ env.UPLOADNAME }}
-        max-size: 20G
+        max-size: 10G
 
     - name: Build kernel
       run: |
